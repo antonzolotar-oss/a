@@ -26,10 +26,6 @@ export function Home() {
       alt: "Диагностика автомобиля"
     },
     {
-      url: "https://images.unsplash.com/photo-1727893119356-1702fe921cf9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200",
-      alt: "Ремонт автомобилей"
-    },
-    {
       url: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200",
       alt: "Профессиональный сервис"
     }
