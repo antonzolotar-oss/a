@@ -94,7 +94,7 @@ export function About() {
           <h2 className="text-2xl font-bold text-neutral-900 mb-6">Наш офис на карте</h2>
           <div className="w-full h-96 bg-neutral-100 rounded-lg overflow-hidden">
             <iframe
-              src="https://yandex.ru/map-widget/v1/?ll=43.931805%2C56.349181z=12&pt=43.931805,56.349181,pm2rdm" 
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3A13d3cee234ec66eb92587d36aa0480c412340bd93295f5b7a7f68dd6a8e73e9d&amp;source=constructor" 
               width="100%"
               height="100%"
               frameBorder="0"
