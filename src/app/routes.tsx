@@ -11,21 +11,24 @@ import { Guarantees } from "./pages/Guarantees";
 import { GuaranteeDetail } from "./pages/GuaranteeDetail";
 import { NotFound } from "./pages/NotFound";
 
-export const router = createBrowserRouter([
-  {
-    path: "/",
-    Component: RootLayout,
-    children: [
-      { index: true, Component: Home },
-      { path: "about", Component: About },
-      { path: "promotions", Component: Promotions },
-      { path: "promotions/:id", Component: PromotionDetail },
-      { path: "request", Component: RequestForm },
-      { path: "price-list", Component: PriceList },
-      { path: "service/:id", Component: ServiceDetail },
-      { path: "guarantees", Component: Guarantees },
-      { path: "guarantee/:id", Component: GuaranteeDetail },
-      { path: "*", Component: NotFound },
-    ],
-  },
-]);
+export const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      Component: RootLayout,
+      children: [
+        { index: true, Component: Home },
+        { path: "about", Component: About },
+        { path: "promotions", Component: Promotions },
+        { path: "promotions/:id", Component: PromotionDetail },
+        { path: "request", Component: RequestForm },
+        { path: "price-list", Component: PriceList },
+        { path: "service/:id", Component: ServiceDetail },
+        { path: "guarantees", Component: Guarantees },
+        { path: "guarantee/:id", Component: GuaranteeDetail },
+        { path: "*", Component: NotFound },
+      ],
+    },
+  ],
+  { basename: "/a" }
+);

@@ -36,8 +36,8 @@ export function About() {
               </div>
               <div>
                 <h3 className="font-bold text-neutral-900 mb-1">Электронная почта</h3>
-                <a href="mailto:info@modernautorepair.ru" className="text-amber-600 hover:text-amber-700">
-                  info@modernautorepair.ru
+                <a href="mailto:modernautorepair@gmail.com" className="text-amber-600 hover:text-amber-700">
+                  modernautorepair@gmail.com
                 </a>
               </div>
             </div>
@@ -48,8 +48,8 @@ export function About() {
               </div>
               <div>
                 <h3 className="font-bold text-neutral-900 mb-1">Телефон</h3>
-                <a href="tel:+78314567890" className="text-amber-600 hover:text-amber-700">
-                  +7 (831) 456-78-90
+                <a href="tel:+79056686492" className="text-amber-600 hover:text-amber-700">
+                  +7 (905) 668 6492
                 </a>
               </div>
             </div>
@@ -82,7 +82,7 @@ export function About() {
               <div>
                 <h3 className="font-bold text-neutral-900 mb-1">Адрес офиса</h3>
                 <p className="text-neutral-700">
-                  г. Нижний Новгород, ул. Гагарина, д. 23, офис 15
+                  г. Нижний Новгород, ул. Волжская набережная, д.8, корпус 2, офис 7
                 </p>
               </div>
             </div>
@@ -91,7 +91,7 @@ export function About() {
 
         {/* Yandex Map */}
         <div className="bg-white p-8 rounded-lg shadow-md border border-neutral-200">
-          <h2 className="text-2xl font-bold text-neutral-900 mb-6">Наш офис на картеы</h2>
+          <h2 className="text-2xl font-bold text-neutral-900 mb-6">Наш офис на карте</h2>
           <div className="w-full h-96 bg-neutral-100 rounded-lg overflow-hidden">
             <iframe
               src="https://yandex.ru/map-widget/v1/?um=constructor%3A13d3cee234ec66eb92587d36aa0480c412340bd93295f5b7a7f68dd6a8e73e9d&amp;source=constructor" 
