@@ -94,7 +94,7 @@ export function About() {
           <h2 className="text-2xl font-bold text-neutral-900 mb-6">Наш офис на карте</h2>
           <div className="w-full h-96 bg-neutral-100 rounded-lg overflow-hidden">
             <iframe
-              src="https://yandex.ru/map-widget/v1/?ll=43.995905%2C56.326887&z=12&pt=43.995905,56.326887,pm2rdm"
+              src="https://yandex.ru/maps/47/nizhny-novgorod/house/volzhskaya_naberezhnaya_8k2/YEoYfwRhSUYGQFtsfX91eHxiYg==/?ll=43.931192%2C56.348987&z=19.67"
               width="100%"
               height="100%"
               frameBorder="0"
